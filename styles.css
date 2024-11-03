@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fbe4e8;
+}
+
+.welcome-section {
+    padding: 50px;
+    background-color: #ffc1cc;
+    color: #333;
+}
+
+.gif {
+    width: 100px; /* ปรับขนาด GIF */
+    margin-top: 20px;
+    animation: float 3s ease-in-out infinite; /* ทำให้ GIF เคลื่อนไหว */
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+button {
+    background-color: #ff6b81;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff3b61;
+}
